@@ -1,0 +1,78 @@
+/* .first,.third{ 
+    padding: 4rem 6rem;
+}
+.first {
+    background-color: red;
+}
+.second {
+    padding: 4rem 8rem;
+    background-color: green;
+}
+.third {
+    background-color: blue;
+}
+.fourth {
+    padding: 1.9rem 3rem;  
+    background-color: yellow;
+} */
+
+
+/* ===========sidebar=========== */
+
+.sidebar{
+    background-color: #333;
+    height: 100vh;
+    width: 450px;
+    position: sticky;
+    left: auto;
+}
+.sidebar-text{
+    font-size: 1.5rem;
+    color: azure;
+    left: 10rem;
+    margin-bottom :20px ;
+    margin-top: -50px;
+    margin-left: 110px;
+
+}
+.border{
+    border: solid 2px #ffffff;
+    position: relative;
+    left: auto;
+    padding-bottom: 2rem;
+    padding-top: 4rem;
+
+}
+img{
+    width: 15%;
+    height: 15%;
+    size: 15px;
+    position: sticky;
+    margin-top: 10px;
+    bottom: 1.5rem;
+    margin-left: 15px;   
+}
+h2{
+    color: white;
+    margin-top: -30px;
+    margin-left: 1rem;
+    margin-bottom: -20px;
+
+}
+.border:hover{
+    background-color: #dbafaf;
+    cursor: pointer;
+}
+
+.menu{
+    position: absolute;
+    top: auto;
+    left: 220%;
+    bottom: 20px;
+    width: 160%;
+    display: none;
+}
+
+.border:hover .menu{
+    display: block;
+}
