@@ -126,3 +126,17 @@ img {
 #toggleBox:checked+label+.sidebar {
     display: block;
 }
+
+.sidebar button{
+    text-align: center;
+    padding: 2px 4em;
+    background-color: #000000;
+    color: rgb(168, 139, 139);
+    border: 2px solid #000000;
+    cursor: pointer;
+    margin-top: 10px;
+    border-radius: 2em;
+    position: relative;
+    top: 100px;
+    left: 50px;
+}
